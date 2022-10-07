@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px 2px rgb(165, 165, 165);
+    border-radius: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+/* scrollbar setting  */
+main::-webkit-scrollbar {
+    width: 16px;
+}
+main::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: 100px;
+} 
+main::-webkit-scrollbar-thumb {
+    background-color: hsl(219, 14%, 63%);
+    border-radius: 100px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+/* header */
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.top h2{
+    margin-right: 10px;
+}
+.top-number{
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* notifications */
+.notification{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.p-notif{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+/* uzytkownik */
+.prof{
+    font-size: 15px;
+    color: hsl(219, 14%, 63%);
+}
+.prof:last-child{
+    margin-top: 3px;
+}
+.prof-name{
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+.prof-name:hover{
+    color: hsl(219, 85%, 26%);
+}
+.prof-hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.prof-hover:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+
