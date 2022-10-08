@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Notification-Page</title>
     <link href="style.css" rel="stylesheet" />
+    <script defer src="skrypt.js"></script>
   </head>
   <body>
     <main>
@@ -14,71 +15,72 @@
           <h2>Notification</h2>
           <div class="top-number">3</div>
         </div>
-        <p>Mark all as read</p>
+        <div class="all-remove">Mark all as read</div>
       </header>
       <section>
-        <div class="notification">
+        <div class="notification new">
           <img src="images/avatar-mark-webber.webp" alt="Mark Webber"/>
           <div class="p-notif">
-            <div class="prof"><span class="prof-name">Mark Webber</span> reacted to your post <span class="prof-hover">My first tournament today </span><span>📍</span></div>
+            <div class="prof"><span class="prof-name">Mark Webber</span> reacted to your post <span class="prof-hover">My first tournament today </span><span class="mark">📍</span></div>
             <div class="prof">1m ago</div>
           </div>
         </div>
 
-        <div class="notification">
+        <div class="notification new">
           <img src="images/avatar-angela-gray.webp" alt="Angela Grey"/>
           <div class="p-notif">
-            <div class="prof"><span class="prof-name">Angela Gray</span> followed you <span>📍</span></div>
+            <div class="prof"><span class="prof-name">Angela Gray</span> followed you <span class="mark">📍</span></div>
             <div class="prof">5m ago</div>
           </div>
         </div>
 
-        <div class="notification">
+        <div class="notification new">
           <img src="images/avatar-jacob-thompson.webp" alt="Jacob Thompson"/>
           <div class="p-notif">
-            <div class="prof"><span class="prof-name">Jacob Thompson</span> has joined your group <span class="prof-hover">Chess Club </span><span>📍</span></div>
+            <div class="prof"><span class="prof-name">Jacob Thompson</span> has joined your group <span class="prof-hover">Chess Club </span><span class="mark">📍</span></div>
             <div class="prof">1day ago</div>
           </div>
         </div>
-<!--  
-        <div>
-          <img src="images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin"/>
-          <div>
-            <span><h2>Rizky Hasanuddin</h2> sent you a private message</span>
-            <p>5day ago</p>
-            <div>
+
+        <div class="notification">
+          <img class="prof-img-special" src="images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin"/>
+          <div class="p-notif">
+            <div class="prof"><span class="prof-name">Rizky Hasanuddin</span> sent you a private message</div>
+            <div class="prof margin">5day ago</div>
+            <div class="prof message">
               Hello, thanks for setting up the Chess Club. I've been a member for
               a few weeks now and I'm already having lots of fun and
               improving my game.
             </div>
           </div>
+          
         </div>
+        
 
-        <div>
+        <div class="notification">
           <img src="images/avatar-kimberly-smith.webp" alt="Kimberly Smith"/>
-          <div>
-            <span><h2>Kimberly Smith</h2> commented on your picture</span>
-            <p>1week ago</p>
+          <div class="p-notif">
+            <div class="prof"><span class="prof-name">Kimberly Smith</span> commented on your picture</div>
+            <div class="prof">1week ago</div>
           </div>
-          <img src="images/image-chess.webp" alt="Chess image"/>
+          <img class="img-to-right" src="images/image-chess.webp" alt="Chess image"/>
         </div>
-
-        <div>
+ 
+        <div class="notification">
           <img src="images/avatar-nathan-peterson.webp" alt="Nathan Peterson"/>
-          <div>
-            <span><h2>Nathan Peterson</h2> reacted to your recent post <strong>5 end-game strategies to increase your win rate</strong></span>
-            <p>2 weeks ago</p>
+          <div class="p-notif">
+            <div class="prof"><span class="prof-name">Nathan Peterson</span> reacted to your recent post <span class="prof-hover">5 end-game strategies to increase your win rate</span></div>
+            <div class="prof">2 weeks ago</div>
           </div>
         </div>
-
-        <div>
+ 
+        <div class="notification">
           <img src="images/avatar-anna-kim.webp" alt="Anna Kim"/>
-          <div>
-            <span><h2>Anna Kim</h2> left the group <strong>Chess Club</strong></span>
-            <p>2weeks ago</p>
+          <div class="p-notif">
+            <div class="prof"><span class="prof-name">Anna Kim</span> left the group <span class="prof-hover">Chess Club</span></div>
+            <div class="prof">2weeks ago</div>
           </div>
         </div>
-          -->
       </section>
     </main>
   </body>

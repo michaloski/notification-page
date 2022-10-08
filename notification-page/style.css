@@ -62,6 +62,9 @@ header{
     align-items: center;
     justify-content: center;
 }
+.all-remove{
+    cursor: pointer;
+}
 /* notifications */
 .notification{
     width: 100%;
@@ -69,8 +72,11 @@ header{
     align-items: center;
     padding: 10px;
     margin-bottom: 15px;
-    background-color: hsl(211, 68%, 94%);
     border-radius: 10px;
+}
+/* new notification */
+.new{
+    background-color: hsl(211, 68%, 94%);
     cursor: pointer;
 }
 .p-notif{
@@ -82,6 +88,16 @@ header{
 .prof{
     font-size: 15px;
     color: hsl(219, 14%, 63%);
+}
+/* odstep pomiedzy linijkami */
+.margin{
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+/* special prof class */
+.prof-img-special{
+    display: flex;
+    align-self: flex-start;
 }
 .prof:last-child{
     margin-top: 3px;
@@ -100,6 +116,22 @@ header{
 }
 .prof-hover:hover{
     color: hsl(219, 85%, 26%);
+}
+/* prof message */
+.message{
+    border: 1px solid hsl(219, 14%, 63%);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.message:hover{
+    background-color: hsl(205, 33%, 90%);
+}
+/* img to right */
+.img-to-right{
+    margin-left: auto;
+    cursor: pointer;
 }
 
 
